@@ -1,0 +1,33 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JManu21/Platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "js"
+  ],
+  "author": "manuel montaño <joss92821@hotmail.com> (https://github.com/JManu21)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JManu21/Platzom/issues"
+  },
+  "homepage": "https://github.com/JManu21/Platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
