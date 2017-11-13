@@ -1,0 +1,17 @@
+Hola, el presente fichero tiene como propósito argumentar los errores reportados por compañeros de Platzi:
+
+- Babel CLI como dependencia de desarrollo:
+npm install --save-dev babel-cli
+
+- Babel preset como dependencia de desarrollo:
+npm install babel-preset-env --save-dev
+
+-------------------------------------------
+
+en el fichero:  src/platzom.js:
+-  se modifica la cabecera de la función principal de platzom:
+"export default function platzom(str) {"
+- antes estaba solo:
+function platzom(str) {
+
+------------------------------------------    

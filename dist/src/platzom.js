@@ -1,5 +1,11 @@
 "use strict";
 
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+exports.default = platzom;
+
+//function platzom(str) {
 function platzom(str) {
 	var salida = true;
 	var translation = str;
@@ -43,7 +49,7 @@ function platzom(str) {
 		var secondHalf = translation.slice(Math.round(length / 2));
 		translation = firstHalf + "-" + secondHalf;
 	}
-	
+
 	if (salida) {
 		return console.log(str + " no tiene traduccion");
 	}

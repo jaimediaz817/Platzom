@@ -1,5 +1,6 @@
 
-function platzom(str) {
+//function platzom(str) {
+export default function platzom(str) {
 	let salida = true
 	let translation = str
 
